@@ -24,3 +24,4 @@
  <xsl:value-of select="$var_3"/>
 </xsl:template>
 <!--I added this line-->
+<!--I added this line #2-->
