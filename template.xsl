@@ -27,3 +27,9 @@
 <!--I added this line #2-->
 <!--I added this line #3-->
 <!--I added this line #4-->
+<xsl:template name="print_special_character">
+<xsl:param name="char"/>
+	<fo:inline font-size="4.0pt">
+		<xsl:value-of select="$char"/>
+	</fo:inline>
+</xsl:template>
