@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><xslfast>
   <build>200001</build>
-  <version>5.1</version>
+  <version>7.0</version>
   <o class="layout">
     <pages/>
     <docType>1</docType>
@@ -2532,7 +2532,7 @@
       </table-row-style>
     </logicalStyles>
     <xmlFileRef>XML/address.xml</xmlFileRef>
-    <xslFileRef>XSL_FO/SimpleFlyer.xsl</xslFileRef>
+    <xslFileRef>../../../bin/XSL_FO/SimpleFlyer.xsl</xslFileRef>
     <outputFileRef>SimpleFlyer.pdf</outputFileRef>
     <version>1</version>
     <externalTemplateFiles/>
@@ -2654,6 +2654,11 @@
         <regionBeforePrecedes>true</regionBeforePrecedes>
         <regionAfterPrecedes>true</regionAfterPrecedes>
         <mainRegion>false</mainRegion>
+        <pageScale>1.0</pageScale>
+        <pageBleed>0</pageBleed>
+        <pageCropOffset>0</pageCropOffset>
+        <pageCropBox>media-box</pageCropBox>
+        <referenceOrientation>0</referenceOrientation>
         <children>
           <image>
             <minSize>
@@ -2665,10 +2670,12 @@
             <imageURI>box_xslfast.jpg</imageURI>
             <fitToFrame>true</fitToFrame>
             <constantURI>true</constantURI>
-            <imageBasePath>../../../../../../develop/xslfast-5.1/dist/input/Tutorial/img</imageBasePath>
+            <imageBasePath>img</imageBasePath>
             <addImageBasePath>true</addImageBasePath>
             <contentHeight>auto</contentHeight>
             <contentWidth>auto</contentWidth>
+            <inlineImageHeight>40</inlineImageHeight>
+            <inlineImageWidth>20</inlineImageWidth>
             <children/>
             <styleName>Custom</styleName>
             <id>Image_3</id>
@@ -2804,6 +2811,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -2835,10 +2844,12 @@
             <imageURI>xsl_logo_neu.jpg</imageURI>
             <fitToFrame>true</fitToFrame>
             <constantURI>true</constantURI>
-            <imageBasePath>../../../../../../develop/xslfast-5.1/dist/input/Tutorial/img</imageBasePath>
+            <imageBasePath>img</imageBasePath>
             <addImageBasePath>true</addImageBasePath>
             <contentHeight>auto</contentHeight>
             <contentWidth>auto</contentWidth>
+            <inlineImageHeight>40</inlineImageHeight>
+            <inlineImageWidth>20</inlineImageWidth>
             <children/>
             <styleName>Custom</styleName>
             <id>Image_4</id>
@@ -2974,6 +2985,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -3152,6 +3165,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -3212,6 +3227,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -3345,6 +3362,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -3391,6 +3410,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -3524,6 +3545,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -3569,6 +3592,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -3702,6 +3727,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -3857,6 +3884,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -3906,6 +3935,8 @@
             <expandToRight>false</expandToRight>
             <escapeComparisonSigns>false</escapeComparisonSigns>
             <lineHeightXSLCode>0.0</lineHeightXSLCode>
+            <templateCall>false</templateCall>
+            <inlineImage>false</inlineImage>
             <children/>
             <styleName>Custom</styleName>
             <id>pageNumberCitation1</id>
@@ -4041,6 +4072,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -4072,10 +4105,12 @@
             <imageURI>Details/Picture/URL</imageURI>
             <fitToFrame>true</fitToFrame>
             <constantURI>false</constantURI>
-            <imageBasePath>../../../../../../develop/xslfast-5.1/dist/input/Tutorial/01_SimpleFlyer/img</imageBasePath>
+            <imageBasePath>img</imageBasePath>
             <addImageBasePath>true</addImageBasePath>
             <contentHeight>auto</contentHeight>
             <contentWidth>auto</contentWidth>
+            <inlineImageHeight>40</inlineImageHeight>
+            <inlineImageWidth>20</inlineImageWidth>
             <children/>
             <styleName>Custom</styleName>
             <id>cImage_4</id>
@@ -4211,6 +4246,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -4271,6 +4308,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -4404,6 +4443,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -4450,6 +4491,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -4583,6 +4626,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -4628,6 +4673,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -4761,6 +4808,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -4811,6 +4860,8 @@
                   </attributes>
                 </attributeTag>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -4944,6 +4995,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -4990,6 +5043,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -5123,6 +5178,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -5168,6 +5225,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -5301,6 +5360,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -5351,6 +5412,8 @@
                   </attributes>
                 </attributeTag>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -5484,6 +5547,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -5530,6 +5595,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -5663,6 +5730,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -5708,6 +5777,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -5841,6 +5912,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -5891,6 +5964,8 @@
                   </attributes>
                 </attributeTag>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6024,6 +6099,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -6069,6 +6146,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6202,6 +6281,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -6252,6 +6333,8 @@
                   </attributes>
                 </attributeTag>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6385,6 +6468,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -6431,6 +6516,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6564,6 +6651,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -6609,6 +6698,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6742,6 +6833,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -6792,6 +6885,8 @@
                   </attributes>
                 </attributeTag>
                 <lineHeightXSLCode>14.5</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -6925,6 +7020,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -7080,6 +7177,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -7258,6 +7357,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -7324,6 +7425,8 @@
             <expandToRight>false</expandToRight>
             <escapeComparisonSigns>false</escapeComparisonSigns>
             <lineHeightXSLCode>0.0</lineHeightXSLCode>
+            <templateCall>false</templateCall>
+            <inlineImage>false</inlineImage>
             <children/>
             <styleName>Custom</styleName>
             <id>cBarcode_1</id>
@@ -7459,6 +7562,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -7519,6 +7624,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>0.0</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <styleName>Custom</styleName>
                 <frame>
@@ -7653,6 +7760,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -7809,6 +7918,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -7869,6 +7980,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>0.0</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <frame>
                   <position>
@@ -8002,6 +8115,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -8157,6 +8272,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -8217,6 +8334,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>0.0</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <styleName>Custom</styleName>
                 <frame>
@@ -8351,6 +8470,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -8507,6 +8628,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -8567,6 +8690,8 @@
                 <expandToRight>false</expandToRight>
                 <escapeComparisonSigns>false</escapeComparisonSigns>
                 <lineHeightXSLCode>0.0</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
                 <children/>
                 <styleName>Custom</styleName>
                 <frame>
@@ -8701,6 +8826,8 @@
                   <verticalShadow>1.0</verticalShadow>
                   <fontStretch>normal</fontStretch>
                   <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
                   <useSmartVAlign>false</useSmartVAlign>
                 </fo>
                 <readOnly>false</readOnly>
@@ -8857,6 +8984,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -8909,6 +9038,8 @@
             <expandToRight>false</expandToRight>
             <escapeComparisonSigns>false</escapeComparisonSigns>
             <lineHeightXSLCode>0.0</lineHeightXSLCode>
+            <templateCall>false</templateCall>
+            <inlineImage>false</inlineImage>
             <children/>
             <id>copy of copy of InternetLink_2</id>
             <frame>
@@ -9043,6 +9174,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -9214,6 +9347,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -9385,6 +9520,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -9556,6 +9693,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -9612,6 +9751,8 @@
             <expandToRight>false</expandToRight>
             <escapeComparisonSigns>false</escapeComparisonSigns>
             <lineHeightXSLCode>14.5</lineHeightXSLCode>
+            <templateCall>false</templateCall>
+            <inlineImage>false</inlineImage>
             <children/>
             <id>DateTime_1</id>
             <frame>
@@ -9746,6 +9887,8 @@
               <verticalShadow>1.0</verticalShadow>
               <fontStretch>normal</fontStretch>
               <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
               <useSmartVAlign>false</useSmartVAlign>
             </fo>
             <readOnly>false</readOnly>
@@ -9767,6 +9910,360 @@
             <changeBarStyle>solid</changeBarStyle>
             <changeBarWidth>1.0</changeBarWidth>
           </date-time>
+          <text-flow>
+            <bkgColor>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </bkgColor>
+            <expandToRight>false</expandToRight>
+            <truncateInRow>false</truncateInRow>
+            <lineHeight>14.5</lineHeight>
+            <textAlignLast>(none)</textAlignLast>
+            <lineStackingStrategy>max-height</lineStackingStrategy>
+            <textFlowBackgroundImageAttributes/>
+            <isStaticBackgroundImage>true</isStaticBackgroundImage>
+            <children>
+              <text>
+                <xslCode>false</xslCode>
+                <text>We added this item for repository testing blablabla</text>
+                <textColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </textColor>
+                <bkgColor>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </bkgColor>
+                <font>Arial#0#11.0</font>
+                <underline>false</underline>
+                <superscript>false</superscript>
+                <subscript>false</subscript>
+                <hasVariableHeight>false</hasVariableHeight>
+                <constantText>true</constantText>
+                <expandToRight>false</expandToRight>
+                <escapeComparisonSigns>false</escapeComparisonSigns>
+                <lineHeightXSLCode>0.0</lineHeightXSLCode>
+                <templateCall>false</templateCall>
+                <inlineImage>false</inlineImage>
+                <children/>
+                <frame>
+                  <position>
+                    <x>0.0</x>
+                    <y>0.0</y>
+                  </position>
+                  <size>
+                    <height>30.0</height>
+                    <width>100.0</width>
+                  </size>
+                  <numberOfColumns>1</numberOfColumns>
+                  <gutterWidth>3.0</gutterWidth>
+                  <span>none</span>
+                  <leftPadding>0.0</leftPadding>
+                  <rightPadding>0.0</rightPadding>
+                  <topPadding>0.0</topPadding>
+                  <bottomPadding>0.0</bottomPadding>
+                  <hAlign>left</hAlign>
+                  <vAlign>top</vAlign>
+                  <absolute>true</absolute>
+                  <border>
+                    <topBorderWidth>1.0</topBorderWidth>
+                    <leftBorderWidth>1.0</leftBorderWidth>
+                    <rightBorderWidth>1.0</rightBorderWidth>
+                    <bottomBorderWidth>1.0</bottomBorderWidth>
+                    <topBorderStyle>solid</topBorderStyle>
+                    <leftBorderStyle>solid</leftBorderStyle>
+                    <rightBorderStyle>solid</rightBorderStyle>
+                    <bottomBorderStyle>solid</bottomBorderStyle>
+                    <topBorderColor>
+                      <red>0</red>
+                      <green>0</green>
+                      <blue>0</blue>
+                      <alpha>255</alpha>
+                    </topBorderColor>
+                    <leftBorderColor>
+                      <red>0</red>
+                      <green>0</green>
+                      <blue>0</blue>
+                      <alpha>255</alpha>
+                    </leftBorderColor>
+                    <rightBorderColor>
+                      <red>0</red>
+                      <green>0</green>
+                      <blue>0</blue>
+                      <alpha>255</alpha>
+                    </rightBorderColor>
+                    <bottomBorderColor>
+                      <red>0</red>
+                      <green>0</green>
+                      <blue>0</blue>
+                      <alpha>255</alpha>
+                    </bottomBorderColor>
+                    <hasLeftBorder>false</hasLeftBorder>
+                    <hasRightBorder>false</hasRightBorder>
+                    <hasTopBorder>false</hasTopBorder>
+                    <hasBottomBorder>false</hasBottomBorder>
+                    <staticTopBorderColor>true</staticTopBorderColor>
+                    <staticLeftBorderColor>true</staticLeftBorderColor>
+                    <staticBottomBorderColor>true</staticBottomBorderColor>
+                    <staticRightBorderColor>true</staticRightBorderColor>
+                    <staticTopBorderStyle>true</staticTopBorderStyle>
+                    <staticLeftBorderStyle>true</staticLeftBorderStyle>
+                    <staticBottomBorderStyle>true</staticBottomBorderStyle>
+                    <staticRightBorderStyle>true</staticRightBorderStyle>
+                  </border>
+                  <zAxis>10</zAxis>
+                  <referenceOrientation>0</referenceOrientation>
+                  <collapseBorder>false</collapseBorder>
+                  <foFloat>none</foFloat>
+                </frame>
+                <fo>
+                  <generateFoContainer>true</generateFoContainer>
+                  <generateFoBlock>true</generateFoBlock>
+                  <evaluatedExpression>Empty</evaluatedExpression>
+                  <useApply>false</useApply>
+                  <normalizeSpace>false</normalizeSpace>
+                  <disableOutputEscaping>false</disableOutputEscaping>
+                  <xslIf></xslIf>
+                  <xslForeach></xslForeach>
+                  <xslForeachSort></xslForeachSort>
+                  <xslForeachSortAscending>true</xslForeachSortAscending>
+                  <xslForeachSortText>true</xslForeachSortText>
+                  <whiteSpaceCollapse>false</whiteSpaceCollapse>
+                  <suppressRedundantInformation>false</suppressRedundantInformation>
+                  <generateTemplate>false</generateTemplate>
+                  <templateName>Template</templateName>
+                  <tableGenerator></tableGenerator>
+                  <templateParamsList/>
+                  <templateParamsDefaultValuesList class="hashtable"/>
+                  <customBlockAttributes/>
+                  <customContainerAttributes/>
+                  <keepTogether>auto</keepTogether>
+                  <pageBreakBefore>auto</pageBreakBefore>
+                  <pageBreakInside>auto</pageBreakInside>
+                  <pageBreakAfter>auto</pageBreakAfter>
+                  <linefeedTreatment>preserve</linefeedTreatment>
+                  <whiteSpaceTreatment>ignore-if-surrounding-linefeed</whiteSpaceTreatment>
+                  <spaceBefore>0.0</spaceBefore>
+                  <spaceAfter>0.0</spaceAfter>
+                  <supressIfEmpty>false</supressIfEmpty>
+                  <backgroundImage></backgroundImage>
+                  <backgroundRepeat>no-repeat</backgroundRepeat>
+                  <backgroundPositionVertical>top</backgroundPositionVertical>
+                  <backgroundPositionHorizontal>left</backgroundPositionHorizontal>
+                  <breakBefore>auto</breakBefore>
+                  <breakAfter>auto</breakAfter>
+                  <blockId></blockId>
+                  <letterSpacing>0.0</letterSpacing>
+                  <wordSpacing>0.0</wordSpacing>
+                  <overflow>auto</overflow>
+                  <overflowReplacementText></overflowReplacementText>
+                  <useAsMarker>false</useAsMarker>
+                  <hyphenateText>true</hyphenateText>
+                  <avoidWidowWords>false</avoidWidowWords>
+                  <hyphenationMinimumCharacterCount>1</hyphenationMinimumCharacterCount>
+                  <hyphenationZone>0</hyphenationZone>
+                  <kerningMode>auto</kerningMode>
+                  <ligatureMode>auto</ligatureMode>
+                  <textAlignFirst>relative</textAlignFirst>
+                  <blockContainerColumnCount>1</blockContainerColumnCount>
+                  <suppressIfFirstOnPage>false</suppressIfFirstOnPage>
+                  <suppressIfFirstOnPageContainer>false</suppressIfFirstOnPageContainer>
+                  <columnGapContainer>12.0</columnGapContainer>
+                  <templateIsFunction>false</templateIsFunction>
+                  <backgroundColorAttributes/>
+                  <isStaticBackgroundColor>true</isStaticBackgroundColor>
+                  <textShadow>false</textShadow>
+                  <textShadowColor>black</textShadowColor>
+                  <horizontalShadow>1.0</horizontalShadow>
+                  <verticalShadow>1.0</verticalShadow>
+                  <fontStretch>normal</fontStretch>
+                  <textTransform>none</textTransform>
+                  <blockContainerRotate>0</blockContainerRotate>
+                  <blockContainerTranslate>0</blockContainerTranslate>
+                  <useSmartVAlign>false</useSmartVAlign>
+                </fo>
+                <readOnly>false</readOnly>
+                <wasDropped>false</wasDropped>
+                <useAsRegion>false</useAsRegion>
+                <columnsCount>1</columnsCount>
+                <regionType>body</regionType>
+                <useAsBookmark>false</useAsBookmark>
+                <bookmarkId></bookmarkId>
+                <useChangeBar>false</useChangeBar>
+                <changeBarColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </changeBarColor>
+                <changeBarOffeset>2.0</changeBarOffeset>
+                <changeBarPlacement>start</changeBarPlacement>
+                <changeBarStyle>solid</changeBarStyle>
+                <changeBarWidth>1.0</changeBarWidth>
+              </text>
+            </children>
+            <id>TextFlow_1</id>
+            <frame>
+              <position>
+                <x>405.0</x>
+                <y>326.0</y>
+              </position>
+              <size>
+                <height>41.0</height>
+                <width>132.0</width>
+              </size>
+              <numberOfColumns>1</numberOfColumns>
+              <gutterWidth>3.0</gutterWidth>
+              <span>none</span>
+              <leftPadding>0.0</leftPadding>
+              <rightPadding>0.0</rightPadding>
+              <topPadding>0.0</topPadding>
+              <bottomPadding>0.0</bottomPadding>
+              <hAlign>left</hAlign>
+              <vAlign>top</vAlign>
+              <absolute>false</absolute>
+              <border>
+                <topBorderWidth>1.0</topBorderWidth>
+                <leftBorderWidth>1.0</leftBorderWidth>
+                <rightBorderWidth>1.0</rightBorderWidth>
+                <bottomBorderWidth>1.0</bottomBorderWidth>
+                <topBorderStyle>solid</topBorderStyle>
+                <leftBorderStyle>solid</leftBorderStyle>
+                <rightBorderStyle>solid</rightBorderStyle>
+                <bottomBorderStyle>solid</bottomBorderStyle>
+                <topBorderColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topBorderColor>
+                <leftBorderColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftBorderColor>
+                <rightBorderColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightBorderColor>
+                <bottomBorderColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomBorderColor>
+                <hasLeftBorder>false</hasLeftBorder>
+                <hasRightBorder>false</hasRightBorder>
+                <hasTopBorder>false</hasTopBorder>
+                <hasBottomBorder>false</hasBottomBorder>
+                <staticTopBorderColor>true</staticTopBorderColor>
+                <staticLeftBorderColor>true</staticLeftBorderColor>
+                <staticBottomBorderColor>true</staticBottomBorderColor>
+                <staticRightBorderColor>true</staticRightBorderColor>
+                <staticTopBorderStyle>true</staticTopBorderStyle>
+                <staticLeftBorderStyle>true</staticLeftBorderStyle>
+                <staticBottomBorderStyle>true</staticBottomBorderStyle>
+                <staticRightBorderStyle>true</staticRightBorderStyle>
+              </border>
+              <zAxis>10</zAxis>
+              <referenceOrientation>0</referenceOrientation>
+              <collapseBorder>false</collapseBorder>
+              <foFloat>none</foFloat>
+            </frame>
+            <fo>
+              <generateFoContainer>true</generateFoContainer>
+              <generateFoBlock>true</generateFoBlock>
+              <evaluatedExpression>Empty</evaluatedExpression>
+              <useApply>false</useApply>
+              <normalizeSpace>false</normalizeSpace>
+              <disableOutputEscaping>false</disableOutputEscaping>
+              <xslIf></xslIf>
+              <xslForeach></xslForeach>
+              <xslForeachSort></xslForeachSort>
+              <xslForeachSortAscending>true</xslForeachSortAscending>
+              <xslForeachSortText>true</xslForeachSortText>
+              <whiteSpaceCollapse>false</whiteSpaceCollapse>
+              <suppressRedundantInformation>false</suppressRedundantInformation>
+              <generateTemplate>false</generateTemplate>
+              <templateName>Template</templateName>
+              <tableGenerator></tableGenerator>
+              <templateParamsList/>
+              <templateParamsDefaultValuesList class="hashtable"/>
+              <customBlockAttributes/>
+              <customContainerAttributes/>
+              <keepTogether>auto</keepTogether>
+              <pageBreakBefore>auto</pageBreakBefore>
+              <pageBreakInside>auto</pageBreakInside>
+              <pageBreakAfter>auto</pageBreakAfter>
+              <linefeedTreatment>preserve</linefeedTreatment>
+              <whiteSpaceTreatment>ignore-if-surrounding-linefeed</whiteSpaceTreatment>
+              <spaceBefore>0.0</spaceBefore>
+              <spaceAfter>0.0</spaceAfter>
+              <supressIfEmpty>false</supressIfEmpty>
+              <backgroundImage></backgroundImage>
+              <backgroundRepeat>no-repeat</backgroundRepeat>
+              <backgroundPositionVertical>top</backgroundPositionVertical>
+              <backgroundPositionHorizontal>left</backgroundPositionHorizontal>
+              <breakBefore>auto</breakBefore>
+              <breakAfter>auto</breakAfter>
+              <blockId></blockId>
+              <letterSpacing>0.0</letterSpacing>
+              <wordSpacing>0.0</wordSpacing>
+              <overflow>auto</overflow>
+              <overflowReplacementText></overflowReplacementText>
+              <useAsMarker>false</useAsMarker>
+              <hyphenateText>true</hyphenateText>
+              <avoidWidowWords>false</avoidWidowWords>
+              <hyphenationMinimumCharacterCount>1</hyphenationMinimumCharacterCount>
+              <hyphenationZone>0</hyphenationZone>
+              <kerningMode>auto</kerningMode>
+              <ligatureMode>auto</ligatureMode>
+              <textAlignFirst>relative</textAlignFirst>
+              <blockContainerColumnCount>1</blockContainerColumnCount>
+              <suppressIfFirstOnPage>false</suppressIfFirstOnPage>
+              <suppressIfFirstOnPageContainer>false</suppressIfFirstOnPageContainer>
+              <columnGapContainer>12.0</columnGapContainer>
+              <templateIsFunction>false</templateIsFunction>
+              <backgroundColorAttributes/>
+              <isStaticBackgroundColor>true</isStaticBackgroundColor>
+              <textShadow>false</textShadow>
+              <textShadowColor>black</textShadowColor>
+              <horizontalShadow>1.0</horizontalShadow>
+              <verticalShadow>1.0</verticalShadow>
+              <fontStretch>normal</fontStretch>
+              <textTransform>none</textTransform>
+              <blockContainerRotate>0</blockContainerRotate>
+              <blockContainerTranslate>0</blockContainerTranslate>
+              <useSmartVAlign>false</useSmartVAlign>
+            </fo>
+            <readOnly>false</readOnly>
+            <wasDropped>false</wasDropped>
+            <useAsRegion>false</useAsRegion>
+            <columnsCount>1</columnsCount>
+            <regionType>body</regionType>
+            <useAsBookmark>false</useAsBookmark>
+            <bookmarkId></bookmarkId>
+            <useChangeBar>false</useChangeBar>
+            <changeBarColor>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </changeBarColor>
+            <changeBarOffeset>2.0</changeBarOffeset>
+            <changeBarPlacement>start</changeBarPlacement>
+            <changeBarStyle>solid</changeBarStyle>
+            <changeBarWidth>1.0</changeBarWidth>
+          </text-flow>
         </children>
         <styleName>Custom</styleName>
         <frame>
@@ -9901,6 +10398,8 @@
           <verticalShadow>1.0</verticalShadow>
           <fontStretch>normal</fontStretch>
           <textTransform>none</textTransform>
+          <blockContainerRotate>0</blockContainerRotate>
+          <blockContainerTranslate>0</blockContainerTranslate>
           <useSmartVAlign>false</useSmartVAlign>
         </fo>
         <readOnly>false</readOnly>
